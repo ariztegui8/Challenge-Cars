@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(219, 228, 230) !important;
+}
+
+.container-filter{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+    padding: 1.5rem;
+    align-items: center;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.filter label{
+    color: rgb(156, 51, 51);
+    font-weight: 700;
+    margin: 0 30px;
+}
+
+.filter select{
+    border: none;
+    background-color: rgb(219, 228, 230);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    width: 130px;
+}
+
+.checkboxs{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
