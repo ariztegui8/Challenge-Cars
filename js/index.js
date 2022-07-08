@@ -1,6 +1,6 @@
 const cargarAutos = document.querySelector('#filter');
 const filtro = document.querySelector('.filter')
-const example = document.querySelector('#example')
+const auto = document.querySelector('.auto')
 
 
 document.addEventListener('DOMContentLoaded', ()=>{
@@ -30,11 +30,15 @@ function selectJson(datos){
     company.map(com =>{
         const reducido = com.Company1
         console.log(reducido);
-        const {Name} = reducido
+        const {AirConditionInd, Code, Features, Features2, PictureURL, Rates, TransmissionType, VehClass, VehGroup, VehType, Name} = reducido
         console.log(Name);
         const lista = document.createElement('li')
         lista.textContent = `${Name}`
         example.appendChild(lista)
+
+        const imagenAuto = document.createElement('img')
+        imagenAuto.src = `${PictureURL}`
+        auto.appendChild(imagenAuto)
     })
     
     // const objeto = Object.entries(datos.cars)

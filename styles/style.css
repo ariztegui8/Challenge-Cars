@@ -13,7 +13,7 @@ body{
 }
 
 .filter label{
-    color: rgb(156, 51, 51);
+    color: rgb(202, 30, 30);
     font-weight: 700;
     margin: 0 30px;
 }
@@ -32,3 +32,122 @@ body{
     display: grid;
     grid-template-columns: auto auto auto;
 }
+
+.container-auto{
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 7px;
+    margin: 15px 0;
+}
+
+.container-auto-S1{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.parrafos h3{
+    color: rgb(202, 30, 30);
+}
+
+.parrafos p{
+    font-weight: 600;
+}
+
+.auto img{
+    width: 300px;
+}
+
+.btn-book button{
+        border: none;
+        background-color: rgb(202, 30, 30);
+        color: #fff;
+        padding: 10px 30px;
+        border-radius: 10px;
+        text-align: center;
+        outline: none;
+        font-weight: 700;
+        transition: 0.5s;
+}
+
+.btn-book button span{
+    margin-right: 5px;
+}
+
+.btn-book button:hover{
+    background-color: #000;
+}
+
+.container-auto-S2{
+    display: grid;
+    grid-template-columns:  auto auto;
+    padding: 0 30px;
+}
+
+.characteristics ul{
+    list-style: none;
+    padding: 0;
+    
+}
+
+.characteristics ul li{
+    margin-bottom: 10px;
+}
+
+.characteristics ul li span{
+    margin-right: 10px;
+}
+
+.characteristics h6 , .rates h6{
+    color:rgb(185, 185, 185);
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.rates-list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    border-bottom: 1px solid rgb(185, 185, 185);
+    margin: 15px 0;
+    text-align: center;
+}
+
+.rates-list:last-child{
+    border: none;
+}
+
+.rates-list .rate-red{
+    color: rgb(202, 30, 30);
+    font-weight: 600;
+}
+
+.rates-list .rate-precio{
+    color: rgb(202, 30, 30);
+}
+
+.rates-list .rate-precio span{
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 5px;
+    color: rgb(202, 30, 30);
+}
+
+.container-input{
+    display: flex;
+    align-items: center;
+}
+
+.container-input input{
+    margin-bottom: 1rem;
+    margin-right: 10px;
+}
+
+.container-input p{
+    font-weight: 600;
+}
+
+
